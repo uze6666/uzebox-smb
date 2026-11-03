@@ -1,0 +1,18 @@
+# Bring your own ROM: the .nes you put in ROM/ is never versioned, nor anything made from it
+ROM/*
+!ROM/README.txt
+data/
+
+# build outputs (default/)
+obj/
+*.hex
+*.elf
+*.map
+*.uze
+*.lss
+*.o
+__pycache__/
+
+# editor and agent settings of your own
+.claude/
+.vscode/
